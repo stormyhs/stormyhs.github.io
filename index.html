@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <title></title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="fuckit">
+    <script>
+        function scroll_to(location){
+            document.getElementById(location).scrollIntoView({ behavior: "smooth"})
+        }
+    </script>
+
+    <div style="display: flex; justify-content: center">
+        <div id="particle" style="color: rgb(228, 228, 228);">
+            <div class="sidebar">
+                <h1 style="cursor: pointer;" onclick="scroll_to('particle')">MAIN</h1>
+                <h1 style="cursor: pointer;" onclick="scroll_to('projects')">PROJECTS</h1>
+                <h1 style="cursor: pointer;" onclick="scroll_to('skills')">SKILLS</h1>
+                <h1 style="cursor: pointer;" onclick="scroll_to('contact')">CONTACT</h1>
+            </div>
+            <div style="display: block;">
+                <h1 style="text-align: center; font-size: 75px;">STORMY</h1>
+                <h1>DEVELOPER | HACKER | LEARNER | EXPLORER</h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="projects" class="section section2" style="display: flex; justify-content: center">
+        <div style="display: block; z-index: 3;">
+            <h1 class="title">PROJECTS</h1>
+            <div class="list">
+                <h1>Some cool projects</h1>
+                
+                <a href="https://github.com/stormyhs/plt" target="_blank"><h1 style="margin-bottom: 0">Project Leet</h1></a>
+                <h3 style="margin-top: 0;">A hacker-themed browser game. My current primary focus.</h3>
+
+                <a href="https://github.com/stormyhs/stormbot2" target="_blank"><h1 style="margin-bottom: 0">StormBot</h1></a>
+                <h3 style="margin-top: 0;">A discord bot that seems to create gambling addicts.</h3>
+
+                <a href="https://github.com/stormyhs/shitpostbot" target="_blank"><h1 style="margin-bottom: 0">ShitpostBot</h1></a>
+                <h3 style="margin-top: 0;">A discord self-bot meant to automate shitposting. I think.</h3>
+                
+                <h1 style="margin-bottom: 0;">And much much more to come!</h1>
+                <h3 style="margin-top: 0;">Gonna add gifs and live demos to these soon.</h3>
+            </div>
+        </div>
+    </div>
+
+    <div id="skills" class="section section3" style="display: flex; justify-content: center">
+        <div style="display: block;">
+            <h1 class="title">SKILLS</h1>
+            <div class="list">
+                <h1>My skills</h1>
+
+                <h1 style="margin-bottom: 0">Development</h1>
+                <h3 style="margin-top: 0; margin-bottom: 0;">Python, Javascript, Typescript, Node.JS</h3>
+                <h3 style="margin-top: 0">React, Express.JS, HTML5, CSS, TailwindCSS</h3>
+                
+                <h1 style="margin-bottom: 0">Databases</h1>
+                <h3 style="margin-top: 0;">MySQL, PostgreSQL, Redis, MongoDB</h3>
+
+                <h1 style="margin-bottom: 0">Server Ops</h1>
+                <h3 style="margin-top: 0;">Docker, Apache, Nginx</h3>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="section section4" style="display: flex; justify-content: center">
+        <div style="display: block;">
+            <h1 class="title">CONTACT</h1>
+            <div class="list">
+                <h1>My preferred way of being contacted is discord.</h1>
+
+                <h1 style="margin-bottom: 0">Add me: stormy#3999</h1>
+            </div>
+        </div>
+    </div>
+    <script src='https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script>
+    <script src="particles.js"></script>
+</body>
+</html>

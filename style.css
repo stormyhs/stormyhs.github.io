@@ -1,0 +1,97 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+::-moz-selection{
+    background-color: purple;
+}
+
+::selection{
+    background-color: purple;
+}
+
+#particle {
+    background: linear-gradient(to right, #fc354c, #0abfbc);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+canvas {
+    position: absolute;
+    z-index: 2;
+}
+
+html{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    font-family: Roboto, "Courier New", Consolas;
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+a:active {
+    text-decoration: none;
+    color: white;
+}
+
+.title{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 75px;
+    margin-top: 0;
+}
+
+.sidebar{
+    z-index: 100;
+    position: fixed;
+    left: 200px;
+    display: block;
+    border-style: solid;    
+    border-radius: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.list{
+    text-align: left;
+    margin-top: 20vh;
+    margin-left: 50vw;
+    color: white;
+    z-index: 100;
+}
+
+.section {
+    top: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.section2 {
+    background-image: linear-gradient(to bottom right, #212126, #3c3c54);
+}
+.section3 {
+    background-image: linear-gradient(to bottom left, #121216, #212126);
+}
+.section4 {
+    background-image: linear-gradient(to bottom left, #212126, #010101);
+}
