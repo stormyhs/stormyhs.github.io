@@ -1,0 +1,70 @@
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    background-color: #1d1d1d;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin-top: 0;
+    margin-bottom: 0.2rem;
+}
+
+p{
+    margin: 0;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.TextButton{
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    user-select: none;
+}
+
+.TextButton{
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.TextButton:hover{
+    background-image: linear-gradient(90deg, rgb(114, 139, 110) 0%, rgb(106, 200, 91) 100%);
+}
+
+.TextButtonActive{
+    background-image: linear-gradient(90deg, rgb(161, 66, 66) 0%, rgb(220, 169, 169) 100%);
+}
+
+.Card{
+    width: 100%;
+    max-width: 300px;
+    background-color: #2d2d2d;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.SmallCard{
+    width: fit-content;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #2d2d2d;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 255, 255, 0.503);
+}
+
+.Cards{
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+}
